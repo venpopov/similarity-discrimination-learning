@@ -6,21 +6,22 @@ The code runs with paths relative to the parent folder, which is set-up in every
 
 Files:
 
-data/search_raw.csv - raw search data
-data/search_preproc.csv - preprocessed search data ready for similarity analyses
-data/nback.csv - nback task data
-expfiles/characterslist.xlsx - vector representations for each character used in the study (ids correspond to ids in search_raw.csv. Data from Yang et al (2009)
-expfiles/characters_full_list.xlsx - vector representation for all ~5000 characters in Yang et al (2009)
-expfiles/char_dist.csv - information about average eucledian distance between each target character and its distractors
-expfiles/stimuli/ - folder containing image files for each character used in study. filename numbers correspond to character ids used in data files
-expfiles/software/ - E-prime code for experimental software
-scripts/preproc_data.R - transform data_raw.csv to data_preproc.csv
-scripts/similarity_analyses.R - main analysis file that does regressions and plots
+- data/search_raw.csv - raw search data
+- data/search_preproc.csv - preprocessed search data ready for similarity analyses
+- data/nback.csv - nback task data
+- expfiles/characterslist.xlsx - vector representations for each character used in the study (ids correspond to ids in search_raw.csv. Data from Yang et al (2009)
+- expfiles/characters_full_list.xlsx - vector representation for all ~5000 characters in Yang et al (2009)
+- expfiles/char_dist.csv - information about average eucledian distance between each target character and its distractors
+- expfiles/stimuli/ - folder containing image files for each character used in study. filename numbers correspond to character ids used in data files
+- expfiles/software/ - E-prime code for experimental software
+- scripts/preproc_data.R - transform data_raw.csv to data_preproc.csv
+- scripts/similarity_analyses.R - main analysis file that does regressions and plots
 
 
 
 All code runs under the following R, OS and packages versions:
 
+```
 R version 3.5.1 (2018-07-02)
 Platform: x86_64-w64-mingw32/x64 (64-bit)
 Running under: Windows 10 x64 (build 18363)
@@ -45,3 +46,4 @@ loaded via a namespace (and not attached):
 [28] stringi_1.2.4    grid_3.5.1       rprojroot_1.3-2  here_0.1         cli_1.0.1        tools_3.5.1      magrittr_1.5     lazyeval_0.2.1   crayon_1.3.4    
 [37] pkgconfig_2.0.2  MASS_7.3-50      xml2_1.2.0       lubridate_1.7.4  assertthat_0.2.0 minqa_1.2.4      httr_1.3.1       rstudioapi_0.7   R6_2.3.0        
 [46] nlme_3.1-137     compiler_3.5.1 
+```
