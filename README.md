@@ -1,6 +1,6 @@
 Contains the experimental software, data and analysis scripts for the results reported in:
 
-Popov, V., & Reder, L. (2019). Greater discrimination difficulty during perceptual learning leads to stronger and more distinct representations. OSF preprints. https://doi.org/10.31219/osf.io/ru7t6
+Popov, V. & Reder, L. (2020). Greater discrimination difficulty during perceptual learning leads to stronger and more distinct representations. Psychonomic Bulletin & Review. Advance Online Publication
 
 The code runs with paths relative to the parent folder, which is set-up in every script by the here() package and the setwd(here()) command, which finds the .Rproj file and sets that as the working dir.
 
